@@ -1,0 +1,52 @@
+aid: envelop
+name: Envelop
+description: "GraphQL plugin system from The Guild that wraps the GraphQL execution pipeline with composable hooks for auth, caching, tracing, error handling, and rate limiting."
+type: Index
+image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+url: https://the-guild.dev/graphql/envelop
+baseURL: https://the-guild.dev/graphql/envelop
+created: 2026-06-14
+modified: 2026-06-14
+specificationVersion: '0.19'
+tags:
+  - GraphQL
+  - Plugins
+  - Middleware
+  - Execution
+  - Open Source
+apis:
+  - aid: envelop:api
+    name: Envelop API
+    description: "The @envelop/core package exposes the envelop() function and a set of built-in plugins (useSchema, useEngine, useLogger, useMaskedErrors, useExtendContext) that wrap the GraphQL execution pipeline — parse, validate, execute, and subscribe — with composable lifecycle hooks."
+    tags:
+      - GraphQL
+      - Plugins
+      - Hooks
+      - Execution
+    humanURL: https://the-guild.dev/graphql/envelop/docs/getting-started
+    baseURL: https://the-guild.dev/graphql/envelop
+    properties:
+      - url: https://the-guild.dev/graphql/envelop/docs/getting-started
+        type: Documentation
+      - url: graphql/envelop-graphql.md
+        type: GraphQL
+common:
+  - url: https://the-guild.dev/graphql/envelop
+    type: Website
+  - url: https://the-guild.dev/graphql/envelop/docs
+    type: Documentation
+  - url: https://www.linkedin.com/company/the-guild-software
+    type: LinkedIn
+  - url: https://github.com/graphql-hive/envelop
+    type: GitHubOrganization
+  - url: https://the-guild.dev/graphql/envelop/plugins
+    type: Pricing
+  - url: plans/envelop-plans.md
+    type: Plans
+  - url: rate-limits/envelop-rate-limits.md
+    type: RateLimits
+  - url: finops/envelop-finops.md
+    type: FinOps
+maintainers:
+  - FN: Kin Lane
+    email: kin@apievangelist.com
