@@ -2,7 +2,7 @@ aid: envelop
 name: Envelop
 description: "GraphQL plugin system from The Guild that wraps the GraphQL execution pipeline with composable hooks for auth, caching, tracing, error handling, and rate limiting."
 type: Index
-image: https://kinlane-productions2.s3.amazonaws.com/apis-json/apis-json-logo.jpg
+image: https://kinlane-images.s3.amazonaws.com/shared/apis-json/apis-json-logo.jpg
 url: https://the-guild.dev/graphql/envelop
 baseURL: https://the-guild.dev/graphql/envelop
 created: 2026-06-14
