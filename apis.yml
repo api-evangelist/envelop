@@ -31,6 +31,8 @@ apis:
       - url: graphql/envelop-graphql.md
         type: GraphQL
 common:
+  - type: DomainSecurity
+    url: security/envelop-domain-security.yml
   - url: https://the-guild.dev/graphql/envelop
     type: Website
   - url: https://the-guild.dev/graphql/envelop/docs
